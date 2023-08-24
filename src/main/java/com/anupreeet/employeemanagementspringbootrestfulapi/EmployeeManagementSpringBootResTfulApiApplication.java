@@ -8,7 +8,7 @@ public class EmployeeManagementSpringBootResTfulApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmployeeManagementSpringBootResTfulApiApplication.class, args);
-
+		System.out.println("hello");
 	}
 
 }
