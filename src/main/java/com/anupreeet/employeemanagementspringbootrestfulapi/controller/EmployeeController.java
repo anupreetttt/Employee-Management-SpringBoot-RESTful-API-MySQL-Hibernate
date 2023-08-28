@@ -13,6 +13,7 @@ import java.util.List;
 public class EmployeeController {
     private EmployeeService employeeService;
 
+
     public EmployeeController(EmployeeService employeeService) {
         this.employeeService = employeeService;
     }
@@ -40,5 +41,15 @@ public class EmployeeController {
     public ResponseEntity<Employee> updateEmployee(@RequestBody Employee employee, @PathVariable ("id") long employeeId) {
         return new ResponseEntity<Employee>(employeeService.updateEmployee(employee, employeeId), HttpStatus.OK);
     }
+
+    // DELETE employee by ID REST API
+    @DeleteMapping("{id}")
+    public ResponseEntity<String> deleteEmployee(@PathVariable("id") long employeeId) {
+
+        employeeService.deleteEmployee(employeeId);
+
+        return new ResponseEntity<String>("Employee entry deleted", HttpStatus.OK);
+    }
+
 
 }
