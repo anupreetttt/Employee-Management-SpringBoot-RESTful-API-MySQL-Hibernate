@@ -5,6 +5,8 @@ import com.anupreeet.employeemanagementspringbootrestfulapi.repository.EmployeeR
 import com.anupreeet.employeemanagementspringbootrestfulapi.service.EmployeeService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
@@ -18,5 +20,10 @@ public class EmployeeServiceImpl implements EmployeeService {
     @Override
     public Employee saveEmployee(Employee employee) {
         return employeeRepository.save(employee);
+    }
+
+    @Override
+    public List<Employee> getAllEmployee() {
+        return employeeRepository.findAll();
     }
 }
