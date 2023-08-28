@@ -28,4 +28,10 @@ public class EmployeeController {
     public List<Employee> getAllEmployee(){
         return employeeService.getAllEmployee();
     }
+
+    // GET employee by ID REST API
+    @GetMapping("{id}")
+    public ResponseEntity<Employee> getEmployeeById(@PathVariable("id") long employeeId) {
+        return new ResponseEntity<Employee>(employeeService.getEmployeeByID(employeeId), HttpStatus.OK);
+    }
 }
