@@ -2,17 +2,16 @@
 
 ## Overview
 
-This project implements a Serverless RESTful API for managing employee records. It is built using Java, Spring Boot, AWS (Lambda, API Gateway), MySQL, and Hibernate. The application follows a RESTful architecture and leverages AWS Lambda, API Gateway, Spring Boot, MySQL, and Hibernate to handle these operations in a serverless manner, ensuring scalability and efficient data management.
+This project implements a Serverless RESTful API for efficient management of employee records. Built with Java, Spring Boot, AWS (Lambda, API Gateway), MySQL, and Hibernate, the application follows a RESTful architecture. Leveraging AWS Lambda and API Gateway for serverless computing, combined with Spring Boot for web application development, the API ensures scalability and optimal data management. Employee data is stored in MySQL, using Hibernate for seamless mapping between Java objects and database tables. This project aims to provide a robust and scalable solution for handling CRUD operations on employee records through a modern and efficient API.
 
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
+- [Implementation](#implementation)
 - [Functionalities](#functionalities)
 - [Project Structure](#project-structure)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies Used
 
@@ -22,7 +21,7 @@ This project implements a Serverless RESTful API for managing employee records. 
 - MySQL: Database management system used for data storage.
 - Hibernate: Object-Relational Mapping (ORM) tool for mapping Java classes to database tables.
 
-## Functionalities Implemented
+## Implementation
 
 ### EmployeeController
 
