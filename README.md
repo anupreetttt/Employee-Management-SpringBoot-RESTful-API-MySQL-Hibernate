@@ -11,8 +11,6 @@ This project implements a Serverless RESTful API for managing employee records. 
 - [Project Structure](#project-structure)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies Used
 
