@@ -54,7 +54,7 @@ The project follows a standard Spring Boot structure:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/employee-management-api.git
+   git clone https://github.com/your-username/employee-management-api.git https://github.com/anupreetttt/Employee-Management-SpringBoot-RESTful-API-MySQL-Hibernate.git
 
 2. **Build the Project:**
    ```bash
